@@ -12,17 +12,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Asegura espacio en las páginas afectadas */
-.first-section {
-  padding-top: 160px;
-}
-
-@media (max-width: 768px) {
-  .first-section {
-    padding-top: 320px;
-  }
-}
-
 /* Navbar */
 .navbar {
   position: fixed;
@@ -87,6 +76,17 @@ body {
 
   .logo {
     height: 120px;
+  }
+}
+
+/* Páginas donde el contenido inicia inmediatamente después del navbar */
+.first-section {
+  padding-top: 180px;
+}
+
+@media (max-width: 768px) {
+  .first-section {
+    padding-top: 320px;
   }
 }
 
