@@ -10,12 +10,16 @@ body {
   background: linear-gradient(to bottom right, #f9f0ff, #fff);
   color: #333;
   overflow-x: hidden;
-  padding-top: 160px; /* por defecto para escritorio */
+}
+
+/* Asegura espacio en las páginas afectadas */
+.first-section {
+  padding-top: 160px;
 }
 
 @media (max-width: 768px) {
-  body {
-    padding-top: 320px; /* compensa el navbar en móviles más alto */
+  .first-section {
+    padding-top: 320px;
   }
 }
 
